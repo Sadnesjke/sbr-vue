@@ -5,7 +5,7 @@ import BookingView from '../views/BookingView.vue'
 import NewEventView from '../views/NewEventView.vue'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory('/sbr-vue/'),  
   routes: [
     {
       path: '/',
