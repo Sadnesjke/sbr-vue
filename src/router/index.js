@@ -1,11 +1,11 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import PeopleView from '../views/PeopleView.vue'
 import BookingView from '../views/BookingView.vue'
 import NewEventView from '../views/NewEventView.vue'
 
 const router = createRouter({
-  history: createWebHistory('/sbr-vue/'),  
+  history: createWebHashHistory(),
   routes: [
     {
       path: '/',
